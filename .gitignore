@@ -1,3 +1,4 @@
 .idea
 playgrount-qa-automation-api.iml
 .pytest_cache
+__pycache__/
