@@ -12,8 +12,8 @@ class TestUserAuth(BaseCase):
 
     def setup(self):
         data = {
-            'email': 'vinkotov@example.com',
-            'password': '1234'
+            'email': 'email',
+            'password': 'password'
         }
 
         first_response = MyRequests.post('/user/login', data=data)
