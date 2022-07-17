@@ -14,8 +14,8 @@ class TestUserGet(BaseCase):
 
     def test_get_user_details_auth_as_same_user(self):
         data = {
-            'email': 'vinkotov@example.com',
-            'password': '1234'
+            'email': 'email',
+            'password': 'password'
         }
 
         first_response = MyRequests.post('/user/login', data=data)
