@@ -32,7 +32,6 @@ class Assertions:
         for name in names:
             assert name in response_as_dict, f"Response JSON does not have key '{name}'"
 
-
     @staticmethod
     def assert_json_has_not_key(response: Response, name):
         try:
