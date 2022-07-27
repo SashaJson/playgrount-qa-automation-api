@@ -3,3 +3,4 @@ playgrount-qa-automation-api.iml
 .pytest_cache
 __pycache__/
 logs/*
+test_results/
